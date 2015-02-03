@@ -15,3 +15,4 @@ if ! tty -s; then
     bind '"\e[B": history-search-forward'
     bind '"\e[A": history-search-backward'
 fi
+
