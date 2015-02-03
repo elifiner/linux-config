@@ -11,7 +11,7 @@ alias gs='git status'
 alias glg='git lg'
 alias gt='gitter'
  
-if ! tty -s; then
+if tty -s; then
     bind '"\e[B": history-search-forward'
     bind '"\e[A": history-search-backward'
 fi
