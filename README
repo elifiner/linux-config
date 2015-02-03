@@ -4,3 +4,4 @@ wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.bashrc
 wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.vimrc
 wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.gitconfig
 source .bashrc
+
