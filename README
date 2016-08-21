@@ -1,7 +1,8 @@
 Use the following commands to set up a new box:
 
-wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.bashrc
-wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.vimrc
-wget -Nq https://raw.githubusercontent.com/gooli/linux-config/master/.gitconfig
+wget https://raw.githubusercontent.com/gooli/linux-config/master/.bashrc
+wget https://raw.githubusercontent.com/gooli/linux-config/master/.vimrc
+wget https://raw.githubusercontent.com/gooli/linux-config/master/.gitconfig
+wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 source .bashrc
 
