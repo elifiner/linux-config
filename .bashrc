@@ -11,6 +11,8 @@ alias gs='git status'
 alias glg='git lg'
 alias gt='gitter'
  
+source ~/.git-prompt.sh
+ 
 if tty -s; then
     bind '"\e[B": history-search-forward'
     bind '"\e[A": history-search-backward'
