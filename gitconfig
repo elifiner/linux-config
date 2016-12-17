@@ -1,3 +1,10 @@
+[user]
+    name = Eli Finer
+    email = eli.finer@gmail.com
+
+[push]
+    default = tracking
+
 [alias]
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen%ar%Creset %C(bold blue)%an%Creset' --abbrev-commit"
-
+    amend = "commit --all --amend --no-edit"

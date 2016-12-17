@@ -9,7 +9,6 @@ alias mkvenv='virtualenv venv --prompt="($(basename `pwd`))" && source venv/bin/
 alias aliases='vim ~/.bash_aliases && source ~/.bash_aliases && echo "aliases reloaded"'
 alias gs='git status'
 alias glg='git lg'
-alias gt='gitter'
  
 source ~/.git-prompt.sh
 
